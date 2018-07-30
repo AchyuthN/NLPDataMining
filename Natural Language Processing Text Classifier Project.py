@@ -1,4 +1,4 @@
-# This project sets to build a text classifier that would identify the words with the maximum occurence in any eBook. This project 
+# This project sets to build a text classifier that would identify the words with the maximum occurence in any eBook.  
 # Importing necessary dependencies
 import requests as rq
 from bs4 import BeautifulSoup
