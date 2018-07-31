@@ -36,6 +36,7 @@ for word in text_lower:
         words_rm.append(word)
 print(words_rm[:10])   
 import matplotlib.pyplot as plt
+%matplotlib inline
 distribution = nltk.FreqDist(words_rm)
 distribution.plot(10)
 
@@ -77,6 +78,7 @@ def plot_wordfreq(url):
             words_rm.append(word)
     print(words_rm[:10])
     import matplotlib.pyplot as plt
+    %matplotlib inline
     distribution = nltk.FreqDist(words_rm)
     distribution.plot(10)
 plot_wordfreq('https://www.gutenberg.org/files/98/98-h/98-h.htm')    
